@@ -1,7 +1,6 @@
 const http = require('http');
 const Koa = require('koa');
 const koaBody = require('koa-body').default;
-const WS = require('ws');
 
 const router = require('./routes');
 
